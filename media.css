@@ -1,25 +1,20 @@
 @media (max-width:1920px) {
-    .picture-item-new {
-        display: none;
-    }
-    .subtitle-new {
-        display: none;
-    }
-
-    .subtitle-two-new {
-        display: none;
-    }
-
-    .picture-subtitle2-new2 {
+    .picture-item-new,
+    .subtitle-new,
+    .dots,
+    .color-change {
         display: none;
     }
 }
 
 @media (max-width:1200px) {
     .main {
-        height: 340px;
+        min-height: 340px;  
     }
-
+    
+    .imgg {
+        min-height: 340px; 
+    }
     .card2,
     .card5 {
         display: none;
@@ -28,8 +23,7 @@
     .title {
         font-size: 54px;
         line-height: 60px;
-        width: 600px;
-        transform: translate(0, 100%);
+        width: 50%;
     }
 
     .container {
@@ -44,14 +38,10 @@
         height: 170px;
     }
 
-    .picture-subtitle2-new,
+    .category-color,
     .btn-color-new {
         border: 1px solid #00B6DD;
         background-color: #00B6DD;
-    }
-
-    .picture-item-old {
-        display: none;
     }
 
     .picture-item-new {
@@ -65,7 +55,7 @@
         display: initial;
     }
 
-    .subtitle-two-new {
+    .dots {
         display: initial;
     }
 
@@ -73,7 +63,7 @@
         margin-top: 30px;
     }
 
-    .picture-subtitle2-new2 {
+    .color-change {
         display: initial;
     }
 }
@@ -81,15 +71,18 @@
 
 @media (max-width:992px) {
     .main {
-        height: 276px;
+        min-height: 276px;
+    }
+
+    .imgg {
+        min-height: 276px;
     }
 
     .title {
         font-size: 46px;
         line-height: 48px;
         letter-spacing: 1px;
-        width: 400px;
-        
+        width: 45%;
     }
 
     .container {
@@ -104,8 +97,8 @@
         height: 150px;
     }
 
-    .picture-subtitle,
-    .picture-subtitle2 {
+    .category,
+    .category2 {
         font-size: 12px;
         line-height: 20px;
         letter-spacing: 1px;
@@ -126,7 +119,7 @@
         letter-spacing: 1px;
     }
 
-    .subtitle-two {
+    .description {
         font-size: 14px;
         line-height: 22px;
         letter-spacing: 0.6px;
@@ -147,11 +140,11 @@
 
 @media (max-width:768px) {
     .title {
-        transform: translate(0, 75%);
+        width: 60%;
     }
 
-    .main {
-        height: 236px;
+    .imgg {
+        min-height: 236px;
     }
 
     .container {
@@ -169,16 +162,15 @@
 }
 
 @media (max-width:576px) {
-    .main {
-        height: 274px;
+    .imgg {
+        min-height: 274px;
     }
 
     .title {
         font-size: 46px;
         line-height: 48px;
         letter-spacing: 1px;
-        width: 250px;
-        transform: translate(0, 50%);
+        width: 50%;
     }
 
     .container {
@@ -202,7 +194,7 @@
     .person,
     .person2,
     .subtitle,
-    .subtitle-two {
+    .description {
         padding-left: 15px;
     }
 
